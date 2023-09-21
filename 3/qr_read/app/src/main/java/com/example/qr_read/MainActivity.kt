@@ -35,9 +35,9 @@ class MainActivity : AppCompatActivity() {
             if (result.contents != null) {
                 val txtResult = findViewById<TextView>(R.id.txtResult)
                 val scannedData = result.contents
-                txtResult.text = scannedData // Utiliza txtResult para establecer el resultado en el TextView
+                txtResult.text = scannedData 
             } else {
-                // El usuario canceló el escaneo
+                
             }
         }
     }
