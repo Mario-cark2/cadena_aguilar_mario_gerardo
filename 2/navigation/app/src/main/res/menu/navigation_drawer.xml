@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/labels_item2"
+        android:title="">
+        <menu>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/main_item"
+        android:title=""
+        >
+        <menu>
+            <item
+                android:id="@+id/search_item"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Anna Avetisyan"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"
+                yourapp:actionLayout="@layout/menu_item_title"
+                />
+            <item
+                android:id="@+id/rotation_item"
+                android:icon="@drawable/ic_baseline_celebration_24"
+                android:title="Birthday"
+                yourapp:actionLayout="@layout/menu_item_title"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/accelerator_item"
+                android:icon="@drawable/ic_baseline_phone_android_24"
+                android:title="818 123 4567"
+                yourapp:actionLayout="@layout/menu_item_title"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/dashboard_item"
+                android:icon="@drawable/ic_baseline_camera_alt_24"
+                android:title="Instagram account"
+                yourapp:actionLayout="@layout/menu_item_title"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"/>
+
+
+            <item
+                android:id="@+id/label_one"
+                android:icon="@drawable/ic_baseline_mail_24"
+                android:title="info@aplusdesing.com"
+                yourapp:actionLayout="@layout/menu_item_title"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/label_two"
+                android:icon="@drawable/ic_baseline_remove_red_eye_24"
+                android:title="Password"
+                yourapp:actionLayout="@layout/menu_item_title"
+                android:checkable="true"
+                yourapp:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_separator"
+                android:title=""
+                yourapp:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_button"
+
+                yourapp:actionLayout="@layout/button"
+                yourapp:showAsAction="never"
+
+                />
+        </menu>
+    </item>
+</menu>
